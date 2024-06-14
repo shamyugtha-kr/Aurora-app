@@ -32,13 +32,6 @@ export default function ColorScreen({ route, navigation }) {
     }
   }, []);
 
-  // useEffect(() => {
-  //   const unsubscribe = navigation.addListener('focus', () => {
-  //     viewRef.current.animate({ 0: { opacity: 0.5, }, 1: { opacity: 1 } });
-  //   })
-  //   return () => unsubscribe;
-  // }, [navigation])
-
   return (
     <Animated.View
       ref={viewRef}
